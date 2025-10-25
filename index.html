@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JOTA Station – Basingstoke Amateur Radio Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --scouting-purple: #622599;
+      --amber: #f9b708;
+      --vermilion: #ef5000;
+      --ocean-blue: #0094b4;
+      --river-blue: #82e6de;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito Sans', 'Scouts GT Planar', sans-serif;
+      background-color: var(--river-blue);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--scouting-purple);
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      font-family: "Scouts GT Planar Italic 15 Bold", sans-serif;
+    }
+
+    header h2 {
+      margin-top: 0.5em;
+      font-weight: normal;
+      font-size: 1.2em;
+    }
+
+    nav {
+      background-color: var(--ocean-blue);
+      padding: 1em;
+      text-align: center; 
+    }
+
+    nav a {
+      color: white;
+      margin: 0 0.5em;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    .container {
+      padding: 1em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background-color: white;
+      margin: 1em 0;
+      padding: 1.5em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h3 {
+      color: var(--scouting-purple);
+      font-family: "Scouts GT Planar Retalic 15 Bold", sans-serif;
+    }
+
+    .status-card {
+      background-color: var(--amber);
+      color: black;
+      padding: 1em;
+      border-radius: 6px;
+      margin-bottom: 1em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    footer {
+      background-color: var(--vermilion);
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      nav a {
+        display: none;
+        
+      }
+nav  {
+        display: none;
+        
+      }
+      .container {
+        padding: 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#station">Station</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#status">Status</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <header>
+    <h1>JOTA 2026</h1>
+    <h4>Basingstoke Amateur Radio Club</h4>
+  </header>
+
+
+
+  <div class="container">
+
+    <section id="status">
+      <div class="status-card">
+        🔊 Station Status: <span>Off Air</span>
+      </div>
+    </section>
+
+    <section id="about">
+      <h3>📡 About JOTA</h3>
+      <p>JOTA-JOTI is an annual event in which Scouts all over the world connect with each other by means of internet and amateur radio. Short-wave radio signals carry their voices to virtually any corner of the world.
+<p>
+It's the sheer excitement of having a live conversation with a fellow Scout at some other place in the world that attracts so many young people to this event.
+<p>
+JOTA-JOTI is a real Jamboree during which Scouting experiences are exchanged and ideas are shared.
+<p>
+The use of amateur radio techniques offers an extra educational dimension for Scouts. Many children grasp the opportunity to discover the world of wireless radio techniques and electronics.</p>
+    </section>
+
+    <section id="station">
+      <h3>🎙️ Our Station</h3>
+      <p>We operate from Basingstoke, Hampshire, using callsign <strong>GB8BAS</strong>. Our setup includes HF and VHF radios, digital modes, and interactive demos for Scouts to explore the world of amateur radio.</p>
+    </section>
+
+    <section id="schedule">
+      <h3>📅 Event Schedule</h3>
+      <ul>
+        <li><strong>Saturday:</strong> On Air from .....</li>
+        <li><strong>Sunday:</strong> On Air from .....</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>📬 Contact Us</h3>
+      <p>Email: <a href="mailto:info@basingstokearc.org.uk">info@basingstokearc.org.uk</a></p>
+      <p>Website: <a href="https://basingstokearc.org.uk" target="_blank">basingstokearc.org.uk</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 JOTA/BARC | This site supports JOTA-JOTI and is not an official WOSM site.</p>
+  </footer>
+
+</body>
+</html>
